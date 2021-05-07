@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    display: block; 
+    max-width: 100%;
+}
+
+/*Banner*/
+
+.topo{
+    max-width: 640px;
+    margin: 0 auto; 
+}
+
+.fotos{
+    display: flex;
+    flex-wrap: wrap; 
+    max-width: 640px;
+    margin: 0 auto; 
+}
+
+/*Produtos*/
+
+.produtos{
+    max-width: 640px;
+    margin: 0 auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+     justify-content: center;
+}
+
+h3{
+    text-align: center; 
+    color: #0040FF; 
+    margin: 10px;
+    font-family: arial;
+    text-transform: uppercase;
+}
+
+.btn{
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 12px; 
+    
+}
+
+.pimg, .pfinal, span{
+    text-align: center; 
+}
+
+.pimg{
+    margin: 10px;
+    padding: 10px; 
+    border-right: 1px solid #A9A9A9; 
+    
+}
+
+.pfinal{
+    margin: 10px;
+    padding: 10px; 
+     
+}
+
+.desc{
+    color: 	#808080;
+    border-bottom: 1px solid #A9A9A9;
+    line-height: 0px;  
+    text-transform: uppercase; 
+    margin-top: 10px; 
+}
+
+span{
+    color: #0040FF; 
+    font-size: 1.25em;
+    font-weight: bold; 
+    font-family: arial;
+}
+
+/*Rodape*/
+
+.rodape{
+    max-width: 640px;
+    margin: 0 auto; 
+    background: tomato; 
+    background: #FFD700;
+}
+
+.rodape-icon{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.rodape img{
+    margin: 10px; 
+}
+
+h2{
+    text-align: center;
+    color: #0000CD;
+    text-transform: uppercase; 
+   padding: 10px 0;
+}
+
+p{
+    padding: 10px;
+    color: #4F4F4F;
+}
+
+.subli{
+    color:  #4F4F4F;
+}
+
+
+.espaco{
+    padding: 10px;
+    color: #4F4F4F;
+}
+
+
+@media (max-width: 644px){
+    .pimg{
+    border-right: none; 
+    
+}
+}
+
+
+
+
+
